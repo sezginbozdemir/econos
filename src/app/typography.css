@@ -12,6 +12,7 @@ h1 {
 }
 
 h2 {
+  font-family: var(--font-murecho);
   font-size: 40px;
   font-weight: 600;
   line-height: 120%;
@@ -24,6 +25,7 @@ h2 {
 }
 
 h3 {
+  font-family: var(--font-murecho);
   font-size: 32px;
   font-weight: 600;
   line-height: 120%;
@@ -36,6 +38,7 @@ h3 {
 }
 
 h4 {
+  font-family: var(--font-murecho);
   font-size: 25px;
   font-weight: 500;
   line-height: 120%;
@@ -48,48 +51,40 @@ h4 {
 }
 
 h5 {
+  font-family: var(--font-murecho);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   @media (max-width: 768px) {
     font-size: 18px;
   }
-  @media (max-width: 375px) {
-    font-size: 18px;
-  }
 }
 
 h6 {
+  font-family: var(--font-murecho);
   font-size: 20px;
   font-weight: 600;
   line-height: 120%;
   @media (max-width: 768px) {
     font-size: 16px;
   }
-  @media (max-width: 375px) {
-    font-size: 16px;
-  }
 }
 
 .body-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 140%;
+  font-family: var(--font-openSans);
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 140% !important;
   @media (max-width: 768px) {
-    font-size: 16px;
-  }
-  @media (max-width: 375px) {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }
 .details-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 140%;
+  font-family: var(--font-openSans);
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 140% !important;
   @media (max-width: 768px) {
-    font-size: 14px;
-  }
-  @media (max-width: 375px) {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }

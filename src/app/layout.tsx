@@ -16,7 +16,7 @@ const murecho = Murecho({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 const openSans = Open_Sans({
-  variable: "--font-murecho",
+  variable: "--font-openSans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
 });
@@ -34,7 +34,6 @@ const theme = createTheme({
     lg: "74em",
     xl: "90em",
   },
-  fontFamily: openSans.variable,
 });
 
 export default function RootLayout({
