@@ -1,8 +1,6 @@
 :root {
   --background: #090910;
   --white: #ffffff;
-  --orange-linear: linear-gradient(165.07deg, #f67c31 3.79%, #e3574a 98.07%);
-  --gray: #191b1f;
 }
 
 html,
