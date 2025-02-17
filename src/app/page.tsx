@@ -1,11 +1,10 @@
-import Header from "@/shared/header/Header";
-import styles from "./page.module.css";
-import { Container } from "@mantine/core";
-
+import Intro from "@/shared/home-components/intro/Intro";
+import LogoSlider from "@/shared/home-components/logo-slider/LogoSlider";
 export default function Home() {
   return (
-    <Container className={styles.Container} w="100%" h="100%">
-      <Header />
-    </Container>
+    <>
+      <Intro />
+      <LogoSlider />
+    </>
   );
 }

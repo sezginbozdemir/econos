@@ -1,0 +1,13 @@
+.primaryButton {
+  background-image: var(--orange-linear);
+  border-radius: 100px;
+  color: var(--white);
+  height: 60px;
+  width: 200px;
+  border: 1px solid var(--orange);
+}
+
+.primaryButton:hover {
+  background-image: none;
+  background-color: transparent;
+}

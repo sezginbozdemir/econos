@@ -3,12 +3,16 @@ import { Murecho, Open_Sans } from "next/font/google";
 import "./globals.css";
 import "./typography.css";
 import "@mantine/core/styles.css";
+import styles from "./page.module.css";
+
 import {
   ColorSchemeScript,
   MantineProvider,
   mantineHtmlProps,
   createTheme,
+  Container,
 } from "@mantine/core";
+import Header from "@/shared/header/Header";
 
 const murecho = Murecho({
   subsets: ["latin"],
@@ -46,7 +50,10 @@ export default function RootLayout({
       </head>
       <body className={`${murecho.variable} ${openSans.variable}`}>
         <MantineProvider theme={theme} withGlobalClasses withCssVariables>
-          {children}
+          <Container className={styles.Container} size={1200} w="100%" h="100%">
+            <Header />
+            {children}
+          </Container>
         </MantineProvider>
       </body>
     </html>

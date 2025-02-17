@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 100%;
+  background-color: var(--gray);
+  overflow: hidden;
+}
+
+.slider {
+  padding: 1rem 0rem;
+  display: flex;
+  animation: 10s slide infinite linear;
+}
+
+.container:hover .slider {
+  animation-play-state: paused;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.image {
+  object-fit: contain;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
