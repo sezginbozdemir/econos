@@ -1,3 +1,5 @@
+"use client";
+import AboutUsHome from "@/shared/home-components/about-us/AboutUsHome";
 import Intro from "@/shared/home-components/intro/Intro";
 import LogoSlider from "@/shared/home-components/logo-slider/LogoSlider";
 export default function Home() {
@@ -5,6 +7,7 @@ export default function Home() {
     <>
       <Intro />
       <LogoSlider />
+      <AboutUsHome />
     </>
   );
 }

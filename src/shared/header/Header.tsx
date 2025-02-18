@@ -1,5 +1,5 @@
 "use client";
-import { Box, Group } from "@mantine/core";
+import { Group } from "@mantine/core";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import PrimaryButton from "../buttons/PrimaryButton";
@@ -51,9 +51,7 @@ const Header = () => {
           <h6>Contact</h6>
         </Link>
       </Group>
-      <PrimaryButton>
-        <h5>Apelează la noi</h5>
-      </PrimaryButton>
+      <PrimaryButton>Apelează la noi</PrimaryButton>
     </Group>
   );
 };
