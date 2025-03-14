@@ -1,0 +1,57 @@
+.background {
+  background-color: var(--background);
+}
+.smallerCol {
+  background-color: var(--gray);
+  height: 269px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+}
+.marginLeft {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-left: 1rem;
+  }
+}
+.biggerCol {
+  margin: 0rem 1rem;
+  margin-top: 1rem;
+  position: relative;
+  background-color: var(--gray);
+  height: 269px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  object-fit: cover;
+  border-radius: 25px;
+}
+.number {
+  color: var(--orange);
+}
+.numberHover {
+  transform: rotateY(180deg);
+}
+.animateCol {
+  perspective: 1000px;
+  transition: transform 0.8s;
+  transform: rotateY(180deg);
+  position: relative;
+}
+
+.animateHover {
+  transform: rotateY(0deg);
+}
+.refresh {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.noDisplay {
+  display: none;
+}

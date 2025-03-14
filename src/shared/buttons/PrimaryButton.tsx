@@ -6,7 +6,7 @@ interface PrimaryButtonProps extends ButtonProps {}
 export function PrimaryButton({ children, ...props }: PrimaryButtonProps) {
   return (
     <Button {...props} className={styles.primaryButton}>
-      <h5> {children}</h5>
+      <h5>{children}</h5>
     </Button>
   );
 }

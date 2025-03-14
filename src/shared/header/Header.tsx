@@ -1,58 +1,25 @@
 "use client";
-import { Group } from "@mantine/core";
-import styles from "./Header.module.css";
-import Link from "next/link";
+import { Box, Group, Stack } from "@mantine/core";
 import PrimaryButton from "../buttons/PrimaryButton";
-import { usePathname } from "next/navigation"; // Import usePathname
+import Links from "./Links";
+import { useMediaQuery } from "@mantine/hooks";
 
 const Header = () => {
-  const pathname = usePathname();
-
-  const isActive = (href: string) => pathname === href;
+  const matches = useMediaQuery("(min-width: 1024px)");
+  const mobile = useMediaQuery("(min-width: 768px)");
   return (
-    <Group mt={40} mb={50} justify="space-between">
-      <h5>Econos</h5>
+    <Stack mb={!matches ? 30 : 0}>
       <Group
-        gap={50}
-        px={50}
-        className={styles.menuLinks}
-        justify="space-around"
+        mt={matches ? 40 : 20}
+        mb={matches ? 50 : 10}
+        justify={mobile ? `space-around` : `start`}
       >
-        <Link
-          href="/"
-          className={`${styles.menuLink} ${
-            isActive("/") ? styles.activeLink : ""
-          }`}
-        >
-          <h6>Acasă</h6>
-        </Link>
-        <Link
-          href="/about-us"
-          className={`${styles.menuLink} ${
-            isActive("/about-us") ? styles.activeLink : ""
-          }`}
-        >
-          <h6>Despre Noi</h6>
-        </Link>
-        <Link
-          href="/services"
-          className={`${styles.menuLink} ${
-            isActive("/services") ? styles.activeLink : ""
-          }`}
-        >
-          <h6>Servicii</h6>
-        </Link>
-        <Link
-          href="/contact"
-          className={`${styles.menuLink} ${
-            isActive("/contact") ? styles.activeLink : ""
-          }`}
-        >
-          <h6>Contact</h6>
-        </Link>
+        <h5>Econos</h5>
+        {matches && <Links />}
+        {mobile && <PrimaryButton>Apelează la noi</PrimaryButton>}
       </Group>
-      <PrimaryButton>Apelează la noi</PrimaryButton>
-    </Group>
+      {!matches && <Links />}
+    </Stack>
   );
 };
 

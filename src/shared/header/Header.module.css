@@ -3,6 +3,14 @@
   border: 1px solid var(--orange);
   border-radius: 100px;
   height: 60px;
+  align-self: center;
+  margin-left: 4rem;
+  @media (max-width: 1024px) {
+    margin-left: 0;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 .menuLink {
   position: relative;

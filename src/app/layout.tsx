@@ -13,6 +13,7 @@ import {
   Container,
 } from "@mantine/core";
 import Header from "@/shared/header/Header";
+import Footer from "@/shared/footer/Footer";
 
 const murecho = Murecho({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({
           <Container className={styles.Container} size={1200} w="100%" h="100%">
             <Header />
             {children}
+            <Footer />
           </Container>
         </MantineProvider>
       </body>

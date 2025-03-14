@@ -1,0 +1,45 @@
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.serviceCard {
+  background: linear-gradient(
+      179.91deg,
+      rgba(246, 124, 49, 0) 34.84%,
+      rgba(246, 124, 49, 0.43) 99.92%
+    ),
+    url("/images/services-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 25px;
+  width: 350px;
+  height: 350px;
+}
+.serviceTitle {
+  color: var(--white);
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marginLeft {
+  @media (min-width: 1024px) {
+    padding-left: 5.5rem;
+  }
+}
+
+.marginRight {
+  @media (min-width: 1024px) {
+    padding-right: 5.5rem;
+  }
+}

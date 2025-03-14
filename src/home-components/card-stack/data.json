@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Profesionalism si expertiza",
+    "subject": "Cunoștințe solide",
+    "description": "Experții în consultanță financiară și contabilitate trebuie să aibă o pregătire academică și experiență practică semnificativă în domenii precum contabilitatea, fiscalitatea, auditul, planificarea financiară și reglementările legale",
+    "optional": "Certificări relevante",
+    "certs": ["CECCAR pentru contabili", "CFA pentru consultanți financiari"]
+  },
+  {
+    "title": "Devotament",
+    "subject": "Devotament total în sprijinul creșterii afacerii tale",
+    "description": "La Econos, punem pasiune și dedicare în fiecare proiect. Suntem mai mult decât un simplu furnizor de servicii financiare – suntem partenerii care investesc timp și resurse pentru a înțelege nevoile tale specifice și pentru a-ți oferi soluții adaptate. Devotamentul nostru față de succesul afacerii tale se reflectă în fiecare decizie pe care o luăm, asigurându-ne că îți oferim cele mai bune soluții pentru creșterea sustenabilă a afacerii tale."
+  },
+  {
+    "title": "Transparență și etică",
+    "subject": "Transparență și Etică, fundamentul colaborării noastre",
+    "description": "Integritatea și deschiderea sunt esențiale în fiecare interacțiune. Ne asigurăm că vei înțelege pe deplin fiecare decizie financiară și că vei fi sprijinit într-un mod corect și responsabil. Suntem dedicați să construim relații bazate pe încredere și respect."
+  },
+
+  {
+    "title": "Abordare proactivă",
+    "subject": "Anticipăm nevoile tale, înainte de a deveni provocări",
+    "description": "Nu așteptăm problemele să apară – le anticipăm. Adoptăm o abordare proactivă, identificând oportunități și soluționând provocările înainte ca acestea să devină obstacole. Suntem mereu un pas înainte, oferindu-ți strategii financiare care să sprijine dezvoltarea continuă a afacerii tale."
+  },
+  {
+    "title": "Inovatie si adaptibilitate",
+    "subject": "Inovație și adaptabilitate pentru viitorul afacerii tale",
+    "description": "La Econos, combinăm inovația cu flexibilitatea pentru a-ți oferi soluții financiare care evoluează odată cu afacerea ta. Suntem mereu la curent cu cele mai recente tendințe și tehnologii din domeniu, adaptându-ne rapid la schimbările pieței și nevoilor tale specifice. Cu strategii personalizate și un mindset inovator, îți asigurăm resursele necesare pentru a naviga cu succes provocările și oportunitățile din viitor."
+  }
+]

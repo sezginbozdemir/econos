@@ -1,0 +1,123 @@
+.bg {
+  background-color: var(--background);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate {
+  animation: slideDown 0.8s ease-out;
+}
+.card {
+  width: 252px; /* 10% smaller than 280px */
+  height: 137.5px; /* 10% smaller than 175px */
+  border-radius: 25px;
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 0.9s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+.hero {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 0.9s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.subcard {
+  background: var(--orange-linear);
+  width: 205.2px;
+  height: 69.3px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 25px;
+  margin-right: -2.7rem;
+  margin-top: -2.16rem;
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 2.4s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.first {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 1.4s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+.second {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 1.9s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+.third {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out 2.4s forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.circle {
+  width: 40.5px;
+  height: 40.5px;
+  background: var(--orange-linear);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackFont {
+  color: black;
+}

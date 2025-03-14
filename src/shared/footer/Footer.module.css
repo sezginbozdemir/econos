@@ -1,0 +1,30 @@
+.outerGroup {
+  background-color: var(--gray);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 25px;
+  padding: 1rem;
+}
+.firstImg {
+  margin-right: -12rem;
+  margin-top: 3rem;
+  @media (max-width: 1024px) {
+    width: 240px;
+    height: 264px;
+  }
+}
+.secondImg {
+  margin-top: 1.4rem;
+  @media (max-width: 1024px) {
+    width: 264px;
+    height: 292px;
+  }
+}
+.link:hover {
+  color: var(--orange);
+}
+.lineBox {
+  width: 100%;
+  height: 1.5px;
+  background: var(--orange-linear);
+}
