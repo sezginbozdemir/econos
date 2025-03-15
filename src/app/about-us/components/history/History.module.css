@@ -1,0 +1,40 @@
+.historyItem {
+  gap: 20px;
+  max-width: 400px;
+  @media (max-width: 1024px) {
+    max-width: 300px;
+  }
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
+}
+.group {
+  gap: 5rem;
+  @media (max-width: 1024px) {
+    gap: 1rem;
+  }
+}
+
+.circle {
+  width: 39px;
+  height: 39px;
+  background: var(--orange-linear);
+  border-radius: 50%;
+  margin-right: -2rem;
+}
+.year {
+  padding-left: 2.5rem;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
+.line {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

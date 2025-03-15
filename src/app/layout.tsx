@@ -51,11 +51,9 @@ export default function RootLayout({
       </head>
       <body className={`${murecho.variable} ${openSans.variable}`}>
         <MantineProvider theme={theme} withGlobalClasses withCssVariables>
-          <Container className={styles.Container} size={1200} w="100%" h="100%">
-            <Header />
-            {children}
-            <Footer />
-          </Container>
+          <Header />
+          {children}
+          <Footer />
         </MantineProvider>
       </body>
     </html>

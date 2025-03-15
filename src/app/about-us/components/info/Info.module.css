@@ -1,0 +1,67 @@
+.firstText {
+  @media (min-width: 1024px) {
+    flex: 1;
+  }
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.secondText {
+  @media (min-width: 1024px) {
+    flex: 1;
+  }
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.imageBox {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: var(--white);
+  opacity: 0.7;
+  cursor: pointer;
+}
+.circleGroup {
+  border: 1px solid var(--orange);
+  border-radius: 100px;
+  padding: 5px;
+  width: 80%;
+  margin-top: 2rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.circle.active {
+  background: var(--orange-linear);
+}
+.flexText {
+  flex: 1;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+.activeText {
+  color: var(--orange);
+}
+@media (max-width: 768px) {
+  .flexText {
+    display: none;
+  }
+
+  .flexText.activeText {
+    display: block;
+  }
+}
