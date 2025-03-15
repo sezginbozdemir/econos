@@ -1,7 +1,9 @@
 import { Button, ButtonProps } from "@mantine/core";
 import styles from "./Button.module.css";
 
-interface PrimaryButtonProps extends ButtonProps {}
+interface PrimaryButtonProps extends ButtonProps {
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}
 
 export function PrimaryButton({ children, ...props }: PrimaryButtonProps) {
   return (

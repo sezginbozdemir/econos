@@ -4,8 +4,10 @@ import styles from "./Footer.module.css";
 import PrimaryButton from "../buttons/PrimaryButton";
 import Image from "next/image";
 import { useMediaQuery } from "@mantine/hooks";
+import { useRouter } from "next/navigation";
 
 const FooterBanner = () => {
+  const router = useRouter();
   const matches = useMediaQuery("(max-width: 593px)");
   return (
     <Group align="center" justify="center" className={styles.outerGroup}>
@@ -21,7 +23,9 @@ const FooterBanner = () => {
           consultanță personalizată și află cum te putem sprijini în atingerea
           obiectivelor tale financiare.
         </Text>
-        <PrimaryButton>Solicită o consultație</PrimaryButton>
+        <PrimaryButton onClick={() => router.push("/contact")}>
+          Solicită o consultație
+        </PrimaryButton>
       </Stack>
       <Group align="end" mb={-16} wrap="nowrap">
         <Image

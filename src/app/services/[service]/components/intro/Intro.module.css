@@ -1,0 +1,16 @@
+.backButton {
+  display: flex;
+  cursor: pointer;
+}
+
+.firstText {
+  text-align: center;
+  width: 50%;
+  @media (max-width: 1024px) {
+    width: 70%;
+  }
+}
+
+.empty {
+  display: flex;
+}

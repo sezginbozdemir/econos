@@ -1,18 +1,217 @@
 [
   {
-    "title": "Consultanță financiară"
-  },
-  {
-    "title": "Contabilitate / Evidență Contabilă"
-  },
-  {
-    "title": "Expertize Contabile"
-  },
+    "title": "Consultanță financiară",
+    "service": "consultanta-financiara",
+    "questions": [
+      {
+        "title": "Cum mă ajuta consultanța financiară să îmi dezvolt afacerea?",
+        "answer": "Consultanța financiară te ajută să iei decizii strategice bazate pe date concrete, să identifici oportunități de creștere și să optimizezi resursele. Printr-o analiză detaliată a situației financiare și recomandări personalizate, te sprijinim să îți atingi obiectivele."
+      },
+      {
+        "title": "Cât timp durează implementarea unei strategii de optimizare fiscală?",
+        "answer": "Timpul necesar depinde de complexitatea structurii fiscale a companiei tale. De regulă, implementarea poate dura câteva săptămâni, în funcție de analiza inițială și de măsurile recomandate."
+      },
 
-  {
-    "title": "Finanțări"
+      {
+        "title": "Cum poate consultanța să îmi crească profitabilitatea?",
+        "answer": "Analizăm costurile operaționale, identificăm procesele ineficiente și propunem soluții pentru optimizarea acestora. De asemenea, te ajutăm să explorezi noi oportunități de venit, cum ar fi diversificarea produselor sau extinderea pe alte piețe."
+      },
+
+      {
+        "title": "De ce este important fluxul de numerar?",
+        "answer": "Un flux de numerar bine gestionat asigură că ai resurse suficiente pentru cheltuielile curente, investiții și situații neprevăzute. Este fundamentul sănătății financiare a afacerii tale."
+      },
+
+      {
+        "title": "Cum știu dacă pot solicita rambursări de TVA?",
+        "answer": "Dacă ai efectuat cheltuieli deductibile și ai înregistrat TVA plătit în plus față de TVA-ul colectat, poți solicita rambursări. Verificăm documentele contabile și ne ocupăm de întreg procesul pentru tine."
+      }
+    ],
+    "categories": [
+      {
+        "title": "Optimizare fiscală",
+        "description": "Optimizarea fiscală este esențială pentru o afacere sănătoasă și sustenabilă. La Econos, analizăm în detaliu structura fiscală a companiei tale, identificăm zonele în care poți economisi și implementăm strategii adaptate pentru reducerea costurilor fiscale. Totul se face în conformitate cu legislația în vigoare, astfel încât să eviți riscurile și să beneficiezi de o gestionare transparentă a impozitelor.<br><br>Îți oferim suport continuu în interpretarea și aplicarea corectă a reglementărilor fiscale, precum și soluții pentru optimizarea proceselor interne legate de taxe. Cu noi, vei transforma fiscalitatea dintr-o povară într-un instrument de eficiență financiară."
+      },
+      {
+        "title": "Profitabilitate",
+        "description": "Creșterea profitabilității nu înseamnă doar reducerea costurilor, ci și maximizarea valorii create de fiecare acțiune a afacerii tale. Printr-o analiză amănunțită a structurii financiare, identificăm atât sursele de pierderi, cât și oportunitățile de creștere a veniturilor. Ne asigurăm că fiecare decizie financiară contribuie la consolidarea poziției tale pe piață.\nPunem accent pe strategii sustenabile, care îți permit să menții un echilibru între eficiența operațională și nevoia de inovație. Cu sprijinul Econos, vei avea la dispoziție un plan clar și implementabil pentru a-ți crește profitul, fără a compromite calitatea sau relațiile cu clienții."
+      },
+      {
+        "title": "Flux de numerar",
+        "description": "Un flux de numerar bine gestionat îți oferă controlul asupra operațiunilor zilnice și stabilitatea financiară necesară pentru dezvoltare. La Econos, analizăm toate componentele cash flow-ului tău, de la încasări și plăți la termenele de plată negociate cu partenerii. Oferim soluții practice pentru optimizarea lichidităților și prevenirea blocajelor financiare.<br><br>Cu ajutorul nostru, vei putea planifica mai bine investițiile și vei avea liniștea că resursele tale sunt utilizate eficient. Fie că este vorba de identificarea unor surse suplimentare de finanțare sau de reorganizarea proceselor interne, ne asigurăm că ai mereu acces la capitalul de care ai nevoie."
+      },
+      {
+        "title": "Control fiscal rambursări TVA",
+        "description": "Navigarea prin complexitatea proceselor fiscale poate fi o provocare, mai ales când vine vorba despre rambursările de TVA. La Econos, verificăm în detaliu toate documentele contabile, identificăm greșelile sau neconcordanțele și ne asigurăm că ești conform cu cerințele legale. Astfel, reducem riscul de controale sau penalități fiscale.<br><br>Ne ocupăm complet de întregul proces de rambursare a TVA, de la depunerea documentației la relaționarea cu autoritățile fiscale. Te scutim de stresul birocratic, economisind timp și resurse, în timp ce ne asigurăm că rambursările sunt corect calculate și procesate rapid."
+      }
+    ],
+    "description": "Îți oferim sprijinul de care ai nevoie pentru a lua decizii financiare inteligente și strategice. Echipa noastră analizează în profunzime situația afacerii tale, identifică provocările și oportunitățile și te ajută să îți conturezi un plan financiar adaptat obiectivelor tale."
   },
   {
-    "title": "Fonduri Nerambursabile"
+    "title": "Contabilitate / Evidență Contabilă",
+    "service": "contabilitate-evidenta-contabila",
+    "questions": [
+      {
+        "title": "Ce include serviciul de contabilitate primară?",
+        "answer": "Serviciul de contabilitate primară include înregistrarea și procesarea tuturor documentelor financiare justificative, cum ar fi facturi, chitanțe, bonuri fiscale, plăți și încasări. Ne asigurăm că fiecare tranzacție este înregistrată corect și conform reglementărilor contabile."
+      },
+      {
+        "title": "Cât de des trebuie să îmi predau documentele pentru contabilitatea primară?",
+        "answer": "Ideal, documentele financiare ar trebui predate lunar sau chiar săptămânal, pentru a ne asigura că toate înregistrările sunt la zi și că procesul de raportare și analiză se face corect și eficient."
+      },
+
+      {
+        "title": "De ce este importantă contabilitatea generală?",
+        "answer": "Contabilitatea generală asigură o imagine clară și completă asupra stării financiare a afacerii tale, prin întocmirea bilanțurilor și a conturilor de profit și pierdere. Acest serviciu este esențial pentru a respecta cerințele fiscale și pentru a-ți oferi informațiile necesare pentru a lua decizii strategice."
+      },
+
+      {
+        "title": "Cum mă ajută contabilitatea generală să economisesc bani?",
+        "answer": "O contabilitate generală bine gestionată permite identificarea oportunităților de economisire, cum ar fi deducerea corectă a cheltuielilor și optimizarea structurilor de costuri. De asemenea, evităm erorile și riscurile fiscale, ceea ce contribuie la economisirea de resurse."
+      },
+
+      {
+        "title": "Ce servicii sunt incluse în gestionarea resurselor umane?",
+        "answer": "Serviciile noastre de resurse umane includ gestionarea salarizării, întocmirea și actualizarea contractelor de muncă, gestionarea concediilor, raportările fiscale pentru angajați și conformitatea cu legislația muncii."
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Primară",
+        "description": "Contabilitatea primară este fundamentul unei gestionări corecte a afacerii tale. Ne ocupăm de înregistrarea corectă a documentelor justificative, cum ar fi facturi, chitanțe și plăți, asigurându-ne că toate tranzacțiile sunt înregistrate conform normelor contabile. Fiecare cheltuială și venit este corect documentat și clasificat, facilitând raportarea și analiza ulterioară.<br><br>În plus, îți oferim un sistem transparent și ușor de urmărit, care te ajută să ai întotdeauna un control complet asupra situației financiare a companiei tale. Printr-o gestionare eficientă a contabilității primare, evităm erorile și riscurile care ar putea afecta sănătatea financiară a afacerii tale."
+      },
+      {
+        "title": "Generală",
+        "description": "Contabilitatea generală este esențială pentru a asigura transparența și conformitatea financiară a afacerii tale. Ne ocupăm cu întocmirea bilanțurilor, a conturilor de profit și pierdere și a altor documente contabile esențiale, care reflectă realitatea financiară a companiei tale. Prin înregistrarea corectă a tuturor tranzacțiilor și gestionarea eficientă a evidenței contabile, îți oferim rapoarte clare și utile, esențiale pentru planificarea strategică.<br><br>Mai mult, te ajutăm să îți îndeplinești obligațiile fiscale, astfel încât să fii în conformitate cu legislația în vigoare, fără a-ți face griji pentru riscuri sau sancțiuni. Indiferent de complexitatea afacerii tale, noi ne asigurăm că înregistrările contabile sunt precise și la zi"
+      },
+      {
+        "title": "Resurse Umane",
+        "description": "Serviciile de resurse umane pe care le oferim sunt esențiale pentru o administrare corectă a personalului tău. Gestionăm toate aspectele legate de salarizare, contracte de muncă, evidența concediilor și alte beneficii, asigurându-ne că angajații tăi sunt plătiți corect și la timp, iar documentația este conformă cu legislația muncii.<br><br>De asemenea, ne ocupăm de raportările către autoritățile competente, astfel încât să fii mereu în conformitate cu reglementările în vigoare. Cu ajutorul nostru, îți poți concentra pe dezvoltarea afacerii tale, lăsându-ne noi responsabilitatea administrativă și legală a resurselor umane."
+      }
+    ],
+    "description": "Oferim servicii complete de contabilitate și evidență contabilă, adaptate cerințelor legale și specificului afacerii tale. Gestionăm cu rigurozitate toate aspectele financiare, de la înregistrarea documentelor contabile și întocmirea bilanțurilor, până la raportările fiscale necesare."
+  },
+  {
+    "title": "Expertize Contabile",
+    "service": "expertize-contabile",
+    "questions": [
+      {
+        "title": "Care sunt beneficiile unei expertize contabile?",
+        "answer": "Beneficiile includ o mai bună transparență financiară, identificarea posibilelor riscuri fiscale și optimizarea proceselor financiare. O expertiză contabilă ajută, de asemenea, la evaluarea corectă a situației financiare a afacerii și la crearea unui plan financiar sustenabil, bazat pe date corecte și actuale."
+      },
+      {
+        "title": "Ce diferențiază expertizele contabile de auditul financiar?",
+        "answer": "În timp ce auditul financiar este un proces de verificare a exactității și corectitudinii situațiilor financiare, expertiza contabilă se concentrează mai mult pe analiza detaliată a documentelor și identificarea problemelor fiscale sau contabile. Expertiza contabilă poate fi, de asemenea, solicitată pentru soluționarea disputelor financiare sau pentru evaluări specifice."
+      },
+
+      {
+        "title": "Cum mă poate ajuta expertiza contabilă în cazul unui control fiscal?",
+        "answer": "În cazul unui control fiscal, expertiza contabilă poate asigura că toate documentele și tranzacțiile tale sunt corect înregistrate și conforme cu legislația fiscală. Dacă sunt identificate erori, putem oferi soluții pentru corectarea acestora și pentru evitarea eventualelor sancțiuni."
+      },
+
+      {
+        "title": "Cât de des ar trebui să fac o expertiză contabilă?",
+        "answer": "Recomandăm efectuarea unei expertize contabile periodice, cel puțin anual, pentru a avea o imagine clară asupra situației financiare a afacerii și pentru a asigura conformitatea continuă cu reglementările fiscale. În cazul unor tranzacții complexe sau modificări semnificative în afacerea ta, o expertiză ad-hoc poate fi de asemenea benefică."
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Expertize Contabile",
+        "description": "Expertizele contabile presupun o evaluare detaliată și riguroasă a situației financiare a unei afaceri, pentru a oferi o imagine clară și obiectivă asupra stării sale economice. Acestea includ analiza documentelor contabile, identificarea eventualelor nereguli sau inconsistențe și realizarea de recomandări pentru optimizarea proceselor financiare. Expertiza noastră se bazează pe o înțelegere profundă a legislației fiscale și contabile, asigurându-ne că toate activitățile afacerii tale sunt în conformitate cu reglementările în vigoare.<br><br>În plus, expertizele contabile pot ajuta la soluționarea disputelor financiare, la evaluarea unor tranzacții complexe sau la întocmirea de rapoarte financiare care să sprijine deciziile strategice ale afacerii tale."
+      }
+    ],
+    "description": "Expertiza noastră contabilă se bazează pe experiență vastă și cunoștințe aprofundate ale legislației fiscale și contabile. Echipa noastră de experți se asigură că toate operațiunile contabile sunt realizate conform celor mai riguroase standarde, pentru a-ți sprijini afacerea."
+  },
+  {
+    "title": "Finanțări",
+    "service": "finantari",
+    "questions": [
+      {
+        "title": "Ce documente sunt necesare pentru a solicita un credit?",
+        "answer": "De obicei, documentele necesare includ situațiile financiare ale afacerii, un plan de afaceri, documente legale ale companiei și dovezi ale capacității tale de rambursare (de exemplu, istoricul de plăți, declarații fiscale). Echipa noastră te va ajuta să pregătești toate documentele necesare pentru o aplicație rapidă și corectă."
+      },
+      {
+        "title": "Care sunt avantajele unei linii de credit față de un împrumut clasic?",
+        "answer": "Principalul avantaj al unei linii de credit este flexibilitatea. Poți utiliza doar suma de care ai nevoie, fără a fi nevoit să împrumuți toată suma disponibilă. De asemenea, poți rambursa fondurile mai devreme, economisind astfel dobânzile. Liniile de credit sunt o opțiune excelentă pentru a acoperi cheltuielile curente, fără să afectezi fluxul de numerar al afacerii tale."
+      },
+
+      {
+        "title": "Ce tipuri de bunuri pot fi achiziționate prin leasing?",
+        "answer": "Prin leasing, poți achiziționa o gamă largă de bunuri, cum ar fi echipamente IT, mașini de producție, vehicule comerciale, echipamente de birou și multe altele. Leasingul este o opțiune excelentă pentru a îți echipa afacerea fără a afecta capitalul de lucru."
+      },
+
+      {
+        "title": "Cum îmi poate ajuta factoringul să îmbunătățesc fluxul de numerar?",
+        "answer": "Factoringul îți permite să îți vindeți creanțele comerciale (facturi neîncasate) unei instituții financiare, obținând rapid o sumă de bani. Astfel, nu va mai trebui să aștepți ca clienții tăi să plătească facturile, iar lichiditățile tale vor fi mult mai stabile, facilitând plățile către furnizori și salarii."
+      },
+
+      {
+        "title": "Există riscuri asociate cu factoringul?",
+        "answer": "Principalul risc asociat cu factoringul este că poate costa mai mult decât alte forme de finanțare, deoarece instituțiile financiare percep o taxă pentru serviciul lor. Totuși, acest cost poate fi compensat prin îmbunătățirea fluxului de numerar și reducerea riscurilor de neîncasare a creanțelor."
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Credit",
+        "description": "Pentru afacerea ta, obținerea unui credit poate reprezenta soluția ideală pentru finanțarea unor proiecte de dezvoltare sau pentru acoperirea unor cheltuieli neprevăzute. La Econos, te ajutăm să accesezi cele mai bune credite bancare sau financiare, negociind pentru tine condițiile cele mai favorabile. Fie că este vorba despre un credit de investiții, un credit de funcționare sau un credit pentru capital de lucru, suntem alături de tine în procesul de selecție a ofertei care se potrivește cel mai bine nevoilor afacerii tale.<br><br>Echipa noastră te va ghida în întocmirea documentației necesare, în pregătirea cererii de credit și în negocierea condițiilor de rambursare. Scopul nostru este să îți asigurăm finanțarea necesară, într-un mod eficient și transparent, fără riscuri suplimentare pentru afacerea ta."
+      },
+      {
+        "title": "Linii de Credit",
+        "description": "Liniile de credit sunt soluții flexibile pentru afaceri care au nevoie de acces rapid și continuu la resurse financiare. Oferim consultanță pentru obținerea liniilor de credit de la bănci sau alte instituții financiare, permițându-ți să îți finanțezi activitățile curente fără să fie necesar să apelezi la credite de termen lung. Fie că este vorba de o linie de credit pentru achiziții de materii prime, pentru plăți către furnizori sau pentru gestionarea fluxului de numerar, îți oferim soluții adaptate cerințelor tale.<br><br>Te ajutăm să înțelegi avantajele și riscurile liniilor de credit, iar procesul de aplicare va fi simplificat prin expertiza noastră. Astfel, vei putea obține rapid finanțare, fără complicații administrative, și îți vei putea concentra pe dezvoltarea afacerii tale."
+      },
+      {
+        "title": "Leasing",
+        "description": "Leasingul este o opțiune de finanțare care îți permite să îți achiziționezi echipamente, mașini sau alte bunuri de capital fără a face un impact semnificativ asupra capitalului tău de lucru. Te ajutăm să accesezi oferte avantajoase de leasing financiar sau operațional, în funcție de nevoile specifice ale afacerii tale. Fie că vrei să achiziționezi echipamente IT, mașini de producție sau vehicule comerciale, leasingul poate fi o soluție flexibilă și eficientă.<br><br>Consultanța noastră te va ghida prin întregul proces de obținere a unui contract de leasing, de la evaluarea ofertelor și negocierea condițiilor până la finalizarea documentației. Cu ajutorul nostru, vei avea acces la echipamentele de care ai nevoie pentru a-ți dezvolta afacerea, fără a afecta fluxul de numerar."
+      },
+      {
+        "title": "Factoring",
+        "description": "Factoringul este o soluție financiară care îți permite să îți îmbunătățești fluxul de numerar prin vânzarea creanțelor comerciale. Dacă afacerea ta are facturi neîncasate, factoringul poate reprezenta un instrument eficient pentru a obține rapid fonduri. În loc să aștepți termenul de plată al facturilor, poți să le vinzi unei instituții financiare specializate, obținând o sumă parțială imediată și restul la încasarea creanței.<br><br>Te ajutăm să înțelegi toate avantajele și condițiile factorilor, să alegi cea mai bună ofertă și să accesezi rapid această soluție de finanțare. Cu factoringul, vei îmbunătăți lichiditățile afacerii tale, reducând riscurile de neîncasare și menținându-ți afacerea într-o stare financiară stabilă."
+      }
+    ],
+    "description": "Oferim consultanță și soluții complete de finanțare pentru afacerea ta. Indiferent dacă ai nevoie de un împrumut bancar, fonduri europene, investiții private sau orice altă formă de finanțare, echipa noastră te va ghida pas cu pas."
+  },
+  {
+    "title": "Fonduri Nerambursabile",
+    "service": "fonduri-nerambursabile",
+    "questions": [
+      {
+        "title": "Ce tipuri de fonduri europene pot accesa pentru afacerea mea?",
+        "answer": "Există mai multe tipuri de fonduri europene, inclusiv fonduri pentru dezvoltare regională, cercetare și inovare, protecția mediului, educație și formare profesională, dar și pentru sprijinirea IMM-urilor. Echipa noastră te va ajuta să identifici care dintre aceste programe se potrivesc cel mai bine nevoilor afacerii tale."
+      },
+      {
+        "title": "Ce fonduri guvernamentale sunt disponibile pentru IMM-uri?",
+        "answer": "Fondurile guvernamentale pentru IMM-uri includ programe de subvenții, granturi și ajutoare de stat, destinate dezvoltării afacerilor, creării de locuri de muncă, investițiilor în echipamente sau tehnologii noi, și implementării de soluții inovative. Fiecare program are criterii și condiții specifice, iar noi te vom ghida să alegi cele mai potrivite pentru afacerea ta."
+      },
+
+      {
+        "title": "Care sunt pașii pentru obținerea unui fond guvernamental?",
+        "answer": "Pașii pentru obținerea unui fond guvernamental includ identificarea unui program relevant pentru afacerea ta, completarea documentației necesare, depunerea aplicației și respectarea termenelor de implementare. La Econos, te sprijinim în fiecare dintre acești pași, asigurându-ne că aplicația ta este completă și corectă."
+      },
+
+      {
+        "title": "Cum pot ști dacă afacerea mea este eligibilă pentru aceste fonduri?",
+        "answer": "Eligibilitatea depinde de mai mulți factori, inclusiv tipul afacerii, sectorul de activitate, mărimea afacerii și locația. Echipa noastră te va ajuta să analizezi aceste criterii și să determine dacă afacerea ta îndeplinește condițiile pentru a aplica la programele de finanțare dorite."
+      },
+
+      {
+        "title": "Cât timp durează procesul de aplicare și aprobare a fondurilor?",
+        "answer": "Durata procesului variază în funcție de programul de finanțare și de complexitatea proiectului. În general, procesul poate dura între 3 și 6 luni, dar noi te vom sprijini pentru a asigura o aplicare rapidă și eficientă. Este important să respecți toate termenele și să furnizezi documentele solicitate la timp."
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Europene",
+        "description": "Fondurile europene reprezintă o sursă importantă de finanțare pentru proiecte care vizează dezvoltarea economică, inovarea și crearea de locuri de muncă. La Econos, te ghidăm în accesarea programelor de finanțare europene disponibile pentru afacerea ta. Fie că vorbim despre fonduri structurale, fonduri pentru cercetare și inovare, sau pentru dezvoltarea regională, echipa noastră de experți te va ajuta să identifici cele mai bune oportunități și să pregătești documentația necesară.<br><br>De asemenea, te vom sprijini în elaborarea și depunerea proiectului, negocierea condițiilor și gestionarea implementării acestuia. Scopul nostru este să te ajutăm să obții finanțarea de care ai nevoie, fără să te pierzi în hățișul birocratic, și să îți asigurăm succesul în procesul de accesare a fondurilor europene."
+      },
+      {
+        "title": "Guvernamentale",
+        "description": "Pe lângă fondurile europene, există numeroase oportunități de finanțare guvernamentală disponibile pentru afaceri care doresc să se dezvolte. La Econos, îți oferim consultanță completă pentru accesarea programelor de finanțare guvernamentale, cum ar fi subvenții, granturi sau ajutoare de stat, destinate diverselor domenii de activitate. Indiferent dacă vrei să îți extinzi afacerea, să creezi noi locuri de muncă sau să implementezi tehnologii inovative, există fonduri care te pot sprijini.<br><br>Experiența noastră te va ajuta să înțelegi cerințele specifice fiecărui program și să întocmești documentația necesară pentru a depune aplicația în termenul stabilit. Ne asigurăm că vei obține sprijinul financiar dorit și că proiectul tău va fi implementat eficient, conform reglementărilor guvernamentale."
+      }
+    ],
+    "description": "La Econos, îți oferim consultanță completă pentru identificarea celor mai potrivite programe de finanțare din fonduri europene, pentru proiecte de investiții, dezvoltare, inovare sau extindere."
   }
 ]

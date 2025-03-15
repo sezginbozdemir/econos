@@ -4,8 +4,10 @@ import styles from "./ServicesHome.module.css";
 import services from "./services.json";
 import Image from "next/image";
 import SecondaryButton from "@/shared/buttons/SecondaryButton";
+import { useRouter } from "next/navigation";
 
 const ServicesHome = () => {
+  const router = useRouter();
   return (
     <Box mt={50} className={styles.servicesContainer}>
       <Box mt={50} mb={50}>
@@ -30,7 +32,11 @@ const ServicesHome = () => {
                 />
                 <h4 className={styles.serviceTitle}>{service.title}</h4>
               </Stack>
-              <SecondaryButton>Despre</SecondaryButton>
+              <SecondaryButton
+                onClick={() => router.push(`/services/${service.service}`)}
+              >
+                Despre
+              </SecondaryButton>
             </Card>
           </Grid.Col>
         ))}
