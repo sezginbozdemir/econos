@@ -43,26 +43,26 @@ const ServiceBanner = () => {
             <Image src="/icons/check.png" width={20} height={20} alt="econos" />
           }
         >
-          <ListItem>
+          <ListItem className={styles.listItem}>
             <Text className="body-text opacity">
               Acces la serviciile contabile și financiare de oriunde, fără a fi
               nevoie să vă deplasați la birou.
             </Text>
           </ListItem>
-          <ListItem>
+          <ListItem className={styles.listItem}>
             <Text className="body-text opacity">
               Platformele online de contabilitate oferă actualizări în timp
               real, ceea ce permite o mai bună gestionare a fluxului de numerar
             </Text>
           </ListItem>
-          <ListItem>
+          <ListItem className={styles.listItem}>
             <Text className="body-text opacity">
               Comunicarea prin platforme digitale permite un timp de răspuns
               rapid și o colaborare mai eficientă, astfel încât orice problemă
               poate fi soluționată imediat.
             </Text>
           </ListItem>
-          <ListItem>
+          <ListItem className={styles.listItem}>
             <Text className="body-text opacity">
               Serviciile de la distanță vă permit să colaborați cu experți de
               oriunde din țară sau din lume, oferindu-vă acces la cei mai buni

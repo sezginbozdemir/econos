@@ -19,6 +19,8 @@
 }
 .servicesStack {
   align-items: center;
+  background-color: var(--background);
+  overflow-y: hidden;
 }
 .categories {
   background-color: var(--background);
@@ -39,5 +41,39 @@
   width: 300px;
   @media (max-width: 768px) {
     width: 250px;
+  }
+}
+
+.serviceWrap {
+  animation: slideInLeft 0.8s ease-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.serviceWrap:nth-child(even) {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-900px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(900px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
