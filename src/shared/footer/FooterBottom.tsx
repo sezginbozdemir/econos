@@ -60,12 +60,12 @@ const FooterBottom = () => {
           <Stack gap={30}>
             <h4>Informații legale</h4>
             <Stack gap={10}>
-              <Link href="/" className={styles.link}>
+              <Link href="/terms-conditions" className={styles.link}>
                 <Text className="details-text opacity">
                   Termeni și condiții
                 </Text>
               </Link>
-              <Link href="/" className={styles.link}>
+              <Link href="/cookie-policy" className={styles.link}>
                 <Text className="details-text opacity">
                   Politica de cookie-uri
                 </Text>

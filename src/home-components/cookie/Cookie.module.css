@@ -1,0 +1,55 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cookieModal {
+  width: 569px;
+  height: 420px;
+  border-radius: 25px;
+  animation: fadeIn 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.textStack {
+  color: #000000;
+  text-align: center;
+  padding: 0rem 0.5rem;
+}
+.modalBody {
+  height: 100%;
+  padding: 0;
+}
+.buttons {
+  justify-content: space-between;
+  height: 92px;
+  gap: 0;
+  border-top: 1px solid #191b1f;
+}
+
+.firstButton {
+  flex: 1;
+  height: 100%;
+  color: #090910;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+
+.secondButton {
+  background: var(--orange-linear);
+  flex: 1;
+  height: 100%;
+  border-radius: 0;
+}
+.firstButton:hover,
+.secondButton:hover {
+  background-color: transparent !important;
+  color: #090910 !important;
+  border-color: none !important;
+}

@@ -3,14 +3,13 @@ import { Murecho, Open_Sans } from "next/font/google";
 import "./globals.css";
 import "./typography.css";
 import "@mantine/core/styles.css";
-import styles from "./page.module.css";
 
 import {
   ColorSchemeScript,
   MantineProvider,
   mantineHtmlProps,
   createTheme,
-  Container,
+  Box,
 } from "@mantine/core";
 import Header from "@/shared/header/Header";
 import Footer from "@/shared/footer/Footer";

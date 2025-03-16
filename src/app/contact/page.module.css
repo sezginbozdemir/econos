@@ -1,0 +1,23 @@
+.flexOne {
+  width: 100%;
+  @media (min-width: 768px) {
+    flex: 1;
+  }
+}
+.input {
+  background-color: var(--gray);
+  height: 50px;
+  border: none;
+  border-radius: 16px;
+  color: var(--white);
+}
+.area {
+  background-color: var(--gray);
+  height: 180px;
+  border: none;
+  border-radius: 16px;
+  color: var(--white);
+}
+.bg {
+  background-color: var(--background);
+}

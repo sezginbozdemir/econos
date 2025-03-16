@@ -18,6 +18,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bg {
+  background-image: url("/backgrounds/background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
 
 * {
   box-sizing: border-box;

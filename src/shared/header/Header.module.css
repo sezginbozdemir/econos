@@ -35,3 +35,42 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+.burger {
+  cursor: pointer;
+}
+
+.headerContainer {
+  position: relative;
+  z-index: 2;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0px;
+  right: -100%;
+  width: 60%;
+  height: 60vh;
+  background: var(--gray);
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 10;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.menu.open {
+  right: 0;
+}
+
+.closeButton {
+  background-color: var(--gray);
+  color: var(--orange);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

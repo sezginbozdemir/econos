@@ -1,4 +1,4 @@
-import { Group, Stack } from "@mantine/core";
+import { Group } from "@mantine/core";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

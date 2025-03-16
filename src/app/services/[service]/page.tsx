@@ -10,6 +10,7 @@ import LogoSlider from "@/home-components/logo-slider/LogoSlider";
 import styles from "./page.module.css";
 import CardStack from "./components/card-stack/CardStack";
 import Questions from "./components/questions/Questions";
+import Header from "@/shared/header/Header";
 
 const ServicePage = () => {
   const { service } = useParams();
@@ -31,8 +32,9 @@ const ServicePage = () => {
             <CardStack categories={serviceData.categories} />
           </Stack>
         </Container>
-        <LogoSlider />
       </Box>
+      <LogoSlider />
+
       <Container mb={50} w="100%" size={1200}>
         <Questions questions={serviceData.questions} />
       </Container>

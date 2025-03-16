@@ -18,6 +18,7 @@ const AboutUs = () => {
           <AboutUsGrid />
         </Container>
       </Box>
+
       <LogoSlider />
       <Container size={1200} w="100%">
         <History />

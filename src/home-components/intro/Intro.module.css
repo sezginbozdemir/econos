@@ -1,7 +1,3 @@
-.bg {
-  background-color: var(--background);
-}
-
 @keyframes slideDown {
   from {
     transform: translateY(-300px);

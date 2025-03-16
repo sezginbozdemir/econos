@@ -9,7 +9,7 @@ const Intro = () => {
   const matches = useMediaQuery("(min-width: 1024px)");
   const mobile = useMediaQuery("(max-width: 704px)");
   return (
-    <Stack className={styles.bg} align="center">
+    <Stack align="center">
       <Box className={styles.animate}>
         <h1>
           CONSULTANȚĂ <br /> FINANCIARĂ ȘI <br /> CONTABILITATE
