@@ -9,7 +9,7 @@ const CardGrid = () => {
         <Box className={styles.imageBox}>
           <Image
             className={styles.img}
-            src="/images/info-01.png"
+            src="/images/service-01.png"
             alt="econos"
             fill
           />
@@ -27,7 +27,7 @@ const CardGrid = () => {
         <Box className={styles.imageBox}>
           <Image
             className={styles.img}
-            src="/images/info-01.png"
+            src="/images/service-02.png"
             alt="econos"
             fill
           />

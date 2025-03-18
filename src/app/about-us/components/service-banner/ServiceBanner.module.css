@@ -1,11 +1,13 @@
 .span {
   color: var(--orange);
 }
+.img {
+  border-radius: 25px;
+}
 .imgBox {
   position: relative;
   width: 320px;
   height: 320px;
-  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +40,12 @@
   z-index: 1000;
   border-radius: 25px;
   padding: 1.5rem 0.5rem;
+}
+.onlineImg {
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 70px;
+  }
 }
 .star {
   position: absolute;

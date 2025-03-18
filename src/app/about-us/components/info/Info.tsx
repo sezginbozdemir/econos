@@ -22,7 +22,7 @@ const Info = () => {
         </Text>
       </Group>
       <Box className={styles.imageBox}>
-        <Image src="/images/info-01.png" alt="Econos" objectFit="cover" fill />
+        <Image src="/images/info-02.png" alt="Econos" objectFit="cover" fill />
       </Box>
       <Group className={styles.circleGroup} justify="space-between">
         {[0, 1, 2].map((index) => (

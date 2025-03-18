@@ -19,6 +19,7 @@ const ServiceBanner = () => {
               width={120}
               height={90}
               alt="econos"
+              className={styles.onlineImg}
             />
           </Box>
           <Image
@@ -30,6 +31,7 @@ const ServiceBanner = () => {
           />
           <Image
             src="/images/despre-noi-01.png"
+            className={styles.img}
             objectFit="cover"
             alt="econos"
             fill

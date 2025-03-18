@@ -6,6 +6,7 @@ import Image from "next/image";
 interface Category {
   title: string;
   description: string;
+  img: string;
 }
 
 interface CardStackProps {
@@ -43,7 +44,7 @@ const CardStack = ({ categories }: CardStackProps) => {
               <Box className={styles.imageBox}>
                 <Image
                   className={styles.img}
-                  src="/images/info-01.png"
+                  src={category.img}
                   alt="econos"
                   fill
                 />
