@@ -1,19 +1,44 @@
+.cardStackOuter {
+  position: relative;
+  width: 100%;
+}
+
 .cardStack {
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 250vh;
+  overflow: visible;
   @media (max-width: 768px) {
-    height: 950px;
-  }
-  @media (max-width: 480px) {
-    height: 1150px;
+    height: 300vh;
   }
 }
-
+.cardWrapper {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
+}
+.cardsContainer {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .card {
   position: absolute;
+  margin-top: 10rem;
   width: 100%;
-  height: 80%;
+  height: 480px;
   background-color: var(--gray);
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -22,17 +47,24 @@
   transition: all 0.5s ease;
   top: 0;
   left: 0;
-  cursor: pointer;
   color: var(--white);
   border-top: 1px solid #f67c31;
   padding: 5rem;
   @media (max-width: 1024px) {
     padding: 1rem;
   }
+  @media (max-width: 768px) {
+    height: 720px;
+    margin-top: 0rem;
+  }
+  @media (max-width: 480px) {
+    height: 850px;
+  }
 }
 
 .hidden {
   opacity: 0;
+  animation: slideDown 0.5s forwards;
 }
 
 .visible {
@@ -42,11 +74,19 @@
 
 @keyframes slideUp {
   0% {
-    transform: translateY(100px);
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 .imageBox {

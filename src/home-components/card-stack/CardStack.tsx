@@ -104,7 +104,7 @@ const CardStack = () => {
                       )}
                       <Box className={styles.imageBox}>
                         <Image
-                          src="/images/services-bg.png"
+                          src="/images/home-01.png"
                           alt="econos"
                           objectFit="cover"
                           fill

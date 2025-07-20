@@ -21,7 +21,7 @@ const Header = () => {
         <Group
           mt={matches ? 40 : 20}
           mb={matches ? 50 : 10}
-          justify={mobile ? `space-around` : `space-between`}
+          justify="space-between"
         >
           <h5>Econos</h5>
           {matches && <Links />}

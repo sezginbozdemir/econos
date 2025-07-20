@@ -23,7 +23,7 @@ const Contact = () => {
           <h2>Suntem la un mesaj distanță!</h2>
         </Stack>
         <Stack gap={30} w="80%">
-          <Group>
+          <Group gap={30}>
             <Stack gap={30} className={styles.flexOne}>
               <TextInput
                 classNames={{ input: styles.input }}

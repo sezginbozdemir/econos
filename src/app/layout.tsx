@@ -9,7 +9,6 @@ import {
   MantineProvider,
   mantineHtmlProps,
   createTheme,
-  Box,
 } from "@mantine/core";
 import Header from "@/shared/header/Header";
 import Footer from "@/shared/footer/Footer";

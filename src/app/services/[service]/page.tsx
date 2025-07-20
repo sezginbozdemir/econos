@@ -10,7 +10,6 @@ import LogoSlider from "@/home-components/logo-slider/LogoSlider";
 import styles from "./page.module.css";
 import CardStack from "./components/card-stack/CardStack";
 import Questions from "./components/questions/Questions";
-import Header from "@/shared/header/Header";
 
 const ServicePage = () => {
   const { service } = useParams();

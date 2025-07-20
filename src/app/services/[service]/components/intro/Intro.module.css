@@ -1,6 +1,7 @@
 .backButton {
   display: flex;
   cursor: pointer;
+  width: 20px;
 }
 
 .firstText {
@@ -13,4 +14,5 @@
 
 .empty {
   display: flex;
+  width: 20px;
 }

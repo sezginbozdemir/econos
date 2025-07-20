@@ -15,7 +15,7 @@ const MobileLinks = ({ setMenuOpen }: MobileLinksProps) => {
   const router = useRouter();
 
   return (
-    <Stack align="center" gap={60} mt={100} justify="space-around">
+    <Stack align="center" gap={60} mt={50} justify="space-around">
       {[
         { href: "/", label: "Acasă" },
         { href: "/about-us", label: "Despre Noi" },
