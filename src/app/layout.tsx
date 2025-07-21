@@ -3,6 +3,7 @@ import { Murecho, Open_Sans } from "next/font/google";
 import "./globals.css";
 import "./typography.css";
 import "@mantine/core/styles.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import {
   ColorSchemeScript,
@@ -48,6 +49,7 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body className={`${murecho.variable} ${openSans.variable}`}>
+        <SpeedInsights />
         <MantineProvider theme={theme} withGlobalClasses withCssVariables>
           <Header />
           {children}
